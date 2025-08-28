@@ -1,0 +1,55 @@
+{
+  "name": "regulas",
+  "version": "1.0.0",
+  "description": "Regulas is a zero-dependency, lightweight regex builder for JavaScript/TypeScript.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsup",
+    "type-check": "tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "regex",
+    "regexp",
+    "regular-expression",
+    "regex-builder",
+    "typescript",
+    "typescript-library",
+    "javascript",
+    "js",
+    "pattern-matching",
+    "composable-regex",
+    "named-groups",
+    "lookahead",
+    "lookbehind",
+    "regex-helpers",
+    "regex-utility",
+    "regex-tools",
+    "string-validation",
+    "text-parsing",
+    "regexp-builder",
+    "regex-pattern"
+  ],
+  "author": "SamYeem",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
