@@ -4,7 +4,6 @@
   "description": "Regulas is a zero-dependency, lightweight regex builder for JavaScript/TypeScript.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
   "scripts": {
     "test": "vitest",
     "build": "tsup",
