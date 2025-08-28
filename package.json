@@ -1,6 +1,6 @@
 {
   "name": "regulas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Regulas is a zero-dependency, lightweight regex builder for JavaScript/TypeScript.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,12 +9,17 @@
     "build": "tsup",
     "type-check": "tsc --noEmit"
   },
+  
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samyeem/regulas.git"
   },
   "files": [
     "dist",
